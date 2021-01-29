@@ -2,7 +2,7 @@
   <v-container>
     <v-hover v-slot:default="{ hover }">
       <v-card flat>
-        <v-img src="@/assets/about.jpg" height="500">
+        <v-img src="@/assets/about.jpg" height="450">
           <v-fade-transition>
             <v-overlay absolute v-if="hover" color="#999999">
               <v-card-text>
