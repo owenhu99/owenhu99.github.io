@@ -48,6 +48,7 @@ export default {
 }
 .router-link-active {
   font-weight: bold;
+  color: #e38571 !important;
   margin-left: 15px;
 }
 .on-hover {

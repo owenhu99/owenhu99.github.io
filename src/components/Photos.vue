@@ -9,7 +9,7 @@
           <swiper-slide>
             <v-img src="@/assets/photo1.jpg">
               <v-fade-transition>
-                <v-overlay absolute v-if="hover" color="#999999">
+                <v-overlay absolute v-if="hover" color="#e09180">
                   <v-card-text>
                     <v-icon dark small>mdi-map-marker</v-icon>
                     Byodoin Temple in Uji, Kyoto
@@ -23,7 +23,7 @@
           <swiper-slide>
             <v-img src="@/assets/photo2.jpg">
               <v-fade-transition>
-                <v-overlay absolute v-if="hover" color="#999999">
+                <v-overlay absolute v-if="hover" color="#e09180">
                   <v-card-text>
                     <v-icon dark small>mdi-map-marker</v-icon>
                     Naha, Okinawa
@@ -36,8 +36,10 @@
           <swiper-slide>
             <v-img src="@/assets/photo3.jpg">
               <v-fade-transition>
-                <v-overlay absolute v-if="hover" color="#999999">
+                <v-overlay absolute v-if="hover" color="#e09180">
                   <v-card-text>
+                    Julian Lage trio ft. Jorge Roeder and Dave King
+                    <br>
                     <v-icon dark small>mdi-map-marker</v-icon>
                     The Mod Club in Toronto, Canada
                   </v-card-text>
@@ -49,7 +51,7 @@
           <swiper-slide>
             <v-img src="@/assets/photo4.jpg">
               <v-fade-transition>
-                <v-overlay absolute v-if="hover" color="#999999">
+                <v-overlay absolute v-if="hover" color="#e09180">
                   <v-card-text>
                     Ethan's cat Cooper a.k.a Coop
                   </v-card-text>
@@ -61,10 +63,22 @@
           <swiper-slide>
             <v-img src="@/assets/photo5.jpg">
               <v-fade-transition>
-                <v-overlay absolute v-if="hover" color="#999999">
+                <v-overlay absolute v-if="hover" color="#e09180">
                   <v-card-text>
                     <v-icon dark small>mdi-map-marker</v-icon>
                     Koerner Hall in Toronto, Canada
+                  </v-card-text>
+                </v-overlay>
+              </v-fade-transition>
+            </v-img>
+          </swiper-slide>
+
+          <swiper-slide>
+            <v-img src="@/assets/photo6.jpg">
+              <v-fade-transition>
+                <v-overlay absolute v-if="hover" color="#e09180">
+                  <v-card-text>
+                    JPEGMAFIA Live at the Opera House
                   </v-card-text>
                 </v-overlay>
               </v-fade-transition>
