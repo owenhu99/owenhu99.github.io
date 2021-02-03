@@ -1,5 +1,11 @@
 <template>
-  <p>music</p>
+  <v-container>
+    <v-card flat dark color="transparent">
+      <v-card-text>
+        (Hopefully coming soon!)
+      </v-card-text>
+    </v-card>
+  </v-container>
 </template>
 
 <script>
@@ -11,5 +17,8 @@ export default {
 </script>
 
 <style scoped>
-
+  .v-card__text {
+    font-size: 1em;
+    line-height: 2;
+  }
 </style>
