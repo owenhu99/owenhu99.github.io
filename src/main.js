@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
+import VueMeta from 'vue-meta'
 import vuetify from './plugins/vuetify'
 import Routes from './router/routes'
 import {Swiper as SwiperClass, Pagination, Navigation, Mousewheel, Autoplay} from 'swiper/swiper.esm'
@@ -15,6 +16,7 @@ const {Swiper, SwiperSlide} = getAwesomeSwiper(SwiperClass)
 Vue.config.productionTip = false
 
 Vue.use(VueRouter)
+Vue.use(VueMeta)
 
 const router = new VueRouter({
   routes: Routes
