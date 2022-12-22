@@ -1,5 +1,5 @@
 <template>
-    <v-navigation-drawer absolute permanent dark color="transparent" app width="220">
+    <v-navigation-drawer absolute permanent dark color="transparent" app width="180">
       <v-list-item>
         <v-list-item-content>
           <v-list-item-title class="title">
