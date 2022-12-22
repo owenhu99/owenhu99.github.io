@@ -2,7 +2,7 @@
   <v-container>
     <v-card flat dark color="transparent">
       <v-card-text>
-        (Hopefully coming soon!)
+        (coming soon)
       </v-card-text>
     </v-card>
   </v-container>

@@ -30,15 +30,19 @@ export default {
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css?family=EB+Garamond");
+
 html, body {
   height: 100%;
 }
 
 #app {
-  background-color: #222222;
+  background-image: url("./assets/bg.jpg");
+  background-size: cover;
   color: white;
   padding: 6% 17% 10% 15%;
-  font-family: 'Times New Roman', serif;
+  font-family: 'EB Garamond';
+  font-size: 17px;
 }
 
 .theme--dark.v-navigation-drawer:not(.v-navigation-drawer--floating) .v-navigation-drawer__border {
@@ -50,6 +54,6 @@ html, body {
 }
 
 .v-application .title {
-  font-family: Georgia, serif !important;
+  font-family: 'EB Garamond' !important;
 }
 </style>

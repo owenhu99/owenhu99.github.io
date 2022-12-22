@@ -31,9 +31,7 @@
 export default {
     data: () => ({
         items: [
-            'projects',
             'music',
-            'vinyl',
             'photos',
             'about'
         ]
