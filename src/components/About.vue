@@ -1,9 +1,9 @@
 <template>
-  <v-container>
+  <v-container max-height="500px">
 
-    <v-img src="@/assets/bio.jpg" width="200px" style="float: left; margin-bottom: 20px;" />
+    <v-img src="@/assets/bio.jpg" width="200px" style="float: left; margin-bottom: 2%;" />
 
-    <div style="clear: left">
+    <v-container style="clear: left; padding: 0%;" max-height="850px">
       <p>
         Hi, my name is Owen. I'm a software engineer and artist based in Toronto, currently
         completing an Honours degree with a specialist in Computer Science and a minor in 
@@ -40,7 +40,7 @@
           <v-icon dark>mdi-twitter</v-icon>
         </a>
       </p>
-    </div>
+    </v-container>
   </v-container>
 </template>
 

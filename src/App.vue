@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app :class="{'mobile': !$vuetify.breakpoint.xs}">
     <Sidebar />
     <v-main>
       <router-view></router-view>
@@ -24,7 +24,7 @@ export default {
   },
 
   data: () => ({
-    //
+    drawer: false
   }),
 };
 </script>
@@ -34,6 +34,10 @@ export default {
 
 html, body {
   height: 100%;
+}
+
+.mobile {
+  font-size: 16px !important;
 }
 
 #app {
