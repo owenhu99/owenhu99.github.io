@@ -34,8 +34,14 @@ export default {
       photos: [
         "yiran",
         "garage",
+        "subway",
         "roof",
-        "plant-thought"
+        "house",
+        "mikaleena",
+        "rock",
+        "kimchi",
+        "plant-thought",
+        "attics"
       ]
     }),
 }

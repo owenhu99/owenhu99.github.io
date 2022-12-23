@@ -1,5 +1,11 @@
 <template>
-    <v-navigation-drawer absolute dark color="transparent" app width="180">
+    <v-navigation-drawer
+      absolute
+      dark
+      app
+      :permanent="$vuetify.breakpoint.sm || $vuetify.breakpoint.md"
+      color="transparent"
+      width="180">
       <v-list-item>
         <v-list-item-content>
           <v-list-item-title class="title">

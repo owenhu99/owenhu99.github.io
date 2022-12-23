@@ -1,5 +1,12 @@
 <template>
   <v-app :class="{'mobile': !$vuetify.breakpoint.xs}">
+    <p 
+      class="title"
+      style="padding-left: 12px; margin: 0;"
+      v-if="$vuetify.breakpoint.xs"
+    >
+      Xiao Owen Hu | 胡逍
+    </p>
     <Sidebar />
     <v-main>
       <router-view></router-view>
@@ -34,10 +41,6 @@ export default {
 
 html, body {
   height: 100%;
-}
-
-.mobile {
-  font-size: 16px !important;
 }
 
 #app {
