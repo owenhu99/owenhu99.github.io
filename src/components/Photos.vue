@@ -1,5 +1,5 @@
 <template>
-  <v-container class="white" style="padding: 1%;">
+  <v-container class="white" style="padding: 1%; width: 90%;">
     <v-card tile height="100%">
       <v-carousel height="100%" hide-delimiters show-arrows-on-hover>
         <v-carousel-item v-for="(photo,i) in photos" :key="i">
