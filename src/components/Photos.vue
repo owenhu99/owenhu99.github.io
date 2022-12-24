@@ -40,8 +40,7 @@ export default {
         "mikaleena",
         "rock",
         "kimchi",
-        "plant-thought",
-        "attics"
+        "plant-thought"
       ]
     }),
 }
