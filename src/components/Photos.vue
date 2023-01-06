@@ -38,8 +38,7 @@ export default {
 	"chair",
 	"edge",
 	"light",
-	"shadow",
-	"tree"
+	"shadow"
 	]
     }),
 }
