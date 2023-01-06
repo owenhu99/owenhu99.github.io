@@ -1,11 +1,11 @@
 <template>
-  <v-container class="white" style="padding: 1%; width: 90%;">
-    <v-card tile height="100%">
+  <v-container class="white" style="padding: 1%; height: 700px; width: 1040px;">
       <v-carousel height="100%" hide-delimiters show-arrows-on-hover>
         <v-carousel-item v-for="(photo,i) in photos" :key="i">
           <v-img 
             :src="require('../assets/' + photo + '.jpg')"
             :lazy-src="require('../assets/' + photo + '-lazy.jpg')"
+            contain
             height="100%"
           >
             <template v-slot:placeholder>
@@ -23,7 +23,6 @@
           </v-img>
         </v-carousel-item>
       </v-carousel>
-    </v-card>
   </v-container>
 </template>
 
@@ -32,17 +31,16 @@
 export default {
     data: () => ({
       photos: [
-        "yiran",
-        "garage",
+	"yiran",
+	"garage",
 	"breathless",
-        "subway",
-        "roof",
-        "house",
-        "mikaleena",
-        "rock",
-        "kimchi",
-        "plant-thought"
-      ]
+	"subway",
+	"chair",
+	"edge",
+	"light",
+	"shadow",
+	"tree"
+	]
     }),
 }
 </script>
